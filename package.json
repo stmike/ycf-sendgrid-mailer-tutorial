@@ -1,0 +1,22 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "Почтовая рассылка с помощью Yandex Cloud Functions и SendGrid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "яндекс",
+    "функции",
+    "email",
+    "рассылка"
+  ],
+  "author": "Михаил Захаров",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.0",
+    "dotenv": "^8.2.0",
+    "email-validator": "^2.0.4"
+  }
+}
